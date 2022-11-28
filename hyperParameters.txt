@@ -1,0 +1,12 @@
+[Hpara]
+learningRate = 1e-3
+kernelSize = 5
+batchSize = 64
+trainTestRatio = 0.7
+weightDecay = 0.005
+batchNorm = false
+weightNorm = false
+
+[Others]
+filters = 8, 16, 32, 32
+epochs = 1
